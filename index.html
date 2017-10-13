@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Book</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style media="screen">
+    /* move the styles to an external sheet */
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+      body {
+        margin-bottom: 60px;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Javascript Book</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+      <h1>JS Book <small>Various JS applications</small></h1>
+
+      <!-- read over the code, understand the structure and classes. Notice that there are barely any custom CSS defined. You can take full advantage of Bootstrap's predefined styles! -->
+
+      <hr>
+
+      <div class="alert alert-info alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        Welcome to the JS Book scaffold. You can create various JS programs and showcase each app on different pages. Each page should feature a program using JS and/or jQuery that you can interact with. Build this site up so you can use it for your portfolio. Feel free to explore and experiment!
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3>PROJECTS: </h3>
+              <h5>C/F Temperature Converter</h5>
+              <ul>
+                <li>Should take 2 inputs (C/F)</li>
+                <li>Calculate C to F</li>
+                <li>Calculate F to C</li>
+              </ul>
+              <hr>
+              <h5>Gratuity Calculator</h5>
+              <ul>
+                <li>Should take 2 inputs (Total / Tip %)</li>
+                <li>Should be able to choose gratuity rate</li>
+                <li>"You should tip $___ on a bill of $___. "</li>
+              </ul>
+              <hr>
+              <h5>Lottery Winner</h5>
+              <ul>
+                <li>Should take in input of names</li>
+                <li>Randomize a winner</li>
+                <li>Animate the page upon picking winner</li>
+              </ul>
+              <hr>
+              <h5>Magic 8 Ball</h5>
+              <ul>
+                <li>Ask it a question</li>
+                <li>Randomize an output from an array of predefined answers</li>
+                <li>Create an 8 ball in CSS / find an image</li>
+                <li>Animate a fade in effect on the image  </li>
+              </ul>
+              <!-- Feel remove and add projects to keep yourself organized  -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3>TODO: </h3>
+              <ul>
+                <li>Clone the repo, init as your own repo</li>
+                <li>Push your project to your GH</li>
+                <li>Move CSS to seperate file</li>
+                <li>Seperate your JS files as nescessary </li>
+                <li>Create ./img folder, add images as nescessary </li>
+                <li>Add a header/banner to your liking </li>
+                <li>Create a footer link to 'about' for an about page of you</li>
+                <li>Create at least 3 of your own programs</li>
+                <li>On the footer add links to your GH and LinkedIn</li>
+                <li>Look into what a favicon is, and add to your site</li>
+                <li>Add some glyphicons to your site</li>
+                <li>Deploy to Github Pages</li>
+                <!-- Feel free to add and remove TODO's -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">JS Book </span> |
+        <a href="https://www.brainstation.io">Brainstation</a> |
+        <a href="#">FAQ</a> |
+        <a href="#">Legal</a> |
+        <!-- Remove FAQ and Legal and replace them with your own links like your Github, LinkedIn and your own personal site -->
+      </div>
+    </footer>
+
+
+  <script type="text/javascript">
+    $(function(){
+      console.log('Welcome to JS Book!');
+    });
+  </script>
+  </body>
+</html>
